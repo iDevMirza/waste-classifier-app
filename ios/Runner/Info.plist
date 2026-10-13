@@ -66,5 +66,15 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	
+	<key>NSCameraUsageDescription</key>
+	<string>
+		This app uses the camera to capture waste images for classification and dataset collection.
+	</string>
+
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>
+		This app accesses photos so waste images can be classified and added to the research dataset.
+	</string>
 </dict>
 </plist>
