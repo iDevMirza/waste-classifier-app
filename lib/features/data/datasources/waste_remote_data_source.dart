@@ -32,6 +32,7 @@ class WasteRemoteDataSourceImpl implements WasteRemoteDataSource {
   @override
   Future<PredictionModel> predictWaste(File image) async {
     final uri = Uri.parse('${ApiConstants.baseUrl}${ApiConstants.predict}');
+    print('PREDICT URI: $uri');
 
     final request = http.MultipartRequest('POST', uri);
 
